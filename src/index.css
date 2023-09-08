@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  /* font-family: "Open sans"; */
+  font-family: "Kumbh sans";
   /* border: 1px solid red; */
-  font-family: "karla";
+  /* font-family: "karla"; */
 }

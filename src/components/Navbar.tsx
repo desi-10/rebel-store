@@ -82,12 +82,15 @@ const Navbar = () => {
             <li className="">
               <User />
             </li>
-            <li className="relative hover:bg-slate-900 p-2 rounded-full">
+            <Link
+              to="/cart"
+              className="relative hover:bg-slate-900 p-2 rounded-full"
+            >
               <PiShoppingCartThin className="text-2xl" />
               <div className="absolute top-0 right-0 p-1 h-4 text-xs text-center rounded-full bg-blue-500 text-white flex justify-center items-center">
                 <p>3</p>
               </div>
-            </li>
+            </Link>
           </ul>
         )}
         {!searchToggle && (

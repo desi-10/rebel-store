@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
+import { PiMoon } from "react-icons/pi";
 
 const Sidebar = () => {
   return (
@@ -19,7 +20,9 @@ const Sidebar = () => {
 
         <div className="flex justify-between items-center space-x-3 mb-5 ">
           <p>socials</p>
-          <p className="p-2 rounded-full hover:bg-slate-900">///</p>
+          <p className="p-2 rounded-full hover:bg-slate-900">
+            <PiMoon className="text-2xl" />
+          </p>
         </div>
 
         <div className="flex items-center p-2 rounded-lg space-x-3 mb-5 bg-slate-900">

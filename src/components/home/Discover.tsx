@@ -21,18 +21,29 @@ const Discover = () => {
           </div>
         </div>
 
-        <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5">
-          <div className="p-5 bg-amber-100 shrink-0 rounded-xl w-[400px]">
-            <p className="text-sm">Explore new arrivals</p>
-            <p className="font-bold text-xl mb-10 text-black">
-              Shop the latest from top brands
-            </p>
+        <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5 ">
+          <div className="p-5  grid grid-cols-2 bg-amber-100 shrink-0 rounded-xl gap-5 w-[450px]">
+            <div className="flex flex-col justify-between">
+              <div>
+                <p className="">Explore new arrivals</p>
+                <p className="font-bold text-2xl text-black">
+                  Shop the latest from top brands
+                </p>
+              </div>
 
-            <p>
-              <Link to="" className="px-5 py-2 bg-black rounded-full">
-                Show me all
-              </Link>
-            </p>
+              <p className="">
+                <Link to="" className="px-5 py-2 bg-black rounded-full">
+                  Show me all
+                </Link>
+              </p>
+            </div>
+            <div className="w-full h-[200px] overflow-hidden">
+              <img
+                src="/public/assets/pexels-guilherme-almeida-1858175.jpg"
+                alt=""
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </section>
       </div>

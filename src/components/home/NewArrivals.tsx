@@ -26,8 +26,8 @@ const NewArrivals = () => {
         </div>
 
         <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5">
-          <div className=" shrink-0 w-full md:w-[320px]">
-            <div className="p-5 bg-gray-300 rounded-3xl mb-5">
+          <div className=" shrink-0 w-full md:w-[320px] border">
+            <div className="p-5 bg-gray-900 rounded-3xl mb-5">
               <div className="flex justify-end">
                 <p className="bg-black p-2 rounded-full">
                   <i>
@@ -50,43 +50,6 @@ const NewArrivals = () => {
                   <i className="mr-2">
                     <HiArrowsPointingOut />
                   </i>
-                  <p>Quick view</p>
-                </div>
-              </section>
-            </div>
-
-            <p>colors</p>
-
-            <p className="font-bold text-white">Leather Gloves</p>
-            <p>Perfect mint green</p>
-
-            <div className="flex justify-between items-center">
-              <p className="py-1 px-5 text-green-500 border-2 border-green-500 rounded-lg">
-                $42.00
-              </p>
-              <p>/// 4.4(61 reviews)</p>
-            </div>
-          </div>
-          <div className=" shrink-0 w-full md:w-[320px]">
-            <div className="p-5 bg-gray-300 rounded-3xl mb-5">
-              <div className="flex justify-end">
-                <p className="bg-black p-2 rounded-full">
-                  <i>
-                    <AiOutlineHeart className="text-2xl" />
-                  </i>
-                </p>
-              </div>
-
-              <div className="h-64"></div>
-
-              <section className="flex justify-center items-center space-x-2 text-sm">
-                <div className="flex items-center bg-white px-5 py-2 rounded-full shadow-lg text-black">
-                  <i className="mr-2">///</i>
-                  <p>Add to bag</p>
-                </div>
-
-                <div className="flex items-center bg-black  px-5 py-2 rounded-full shadow-lg">
-                  <i className="mr-2">///</i>
                   <p>Quick view</p>
                 </div>
               </section>
