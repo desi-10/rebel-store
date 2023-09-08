@@ -3,7 +3,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 const Discover = () => {
   return (
     <section>
-      <div className="w-[90%] lg:w-[1000px] mx-auto py-10">
+      <div className="w-[90%] 2xl:w-[1440px] mx-auto py-10">
         <div className="flex justify-between items-center mb-10">
           <h3 className="text-4xl font-bold text-slate-200">
             Discover more.{" "}

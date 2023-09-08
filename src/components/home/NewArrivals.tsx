@@ -9,7 +9,7 @@ import { HiArrowsPointingOut } from "react-icons/hi2";
 const NewArrivals = () => {
   return (
     <section>
-      <div className="w-[90%] lg:w-[1000px] mx-auto py-20">
+      <div className="w-[90%] 2xl:w-[1440px] mx-auto py-20">
         <div className="flex justify-between items-center">
           <h3 className="text-4xl font-bold">
             New Arrivals. {""}
@@ -26,7 +26,7 @@ const NewArrivals = () => {
         </div>
 
         <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5">
-          <div className=" shrink-0 w-full lg:w-[320px]">
+          <div className=" shrink-0 w-full md:w-[320px]">
             <div className="p-5 bg-gray-300 rounded-3xl mb-5">
               <div className="flex justify-end">
                 <p className="bg-black p-2 rounded-full">
@@ -67,7 +67,7 @@ const NewArrivals = () => {
               <p>/// 4.4(61 reviews)</p>
             </div>
           </div>
-          <div className=" shrink-0 w-full lg:w-[320px]">
+          <div className=" shrink-0 w-full md:w-[320px]">
             <div className="p-5 bg-gray-300 rounded-3xl mb-5">
               <div className="flex justify-end">
                 <p className="bg-black p-2 rounded-full">

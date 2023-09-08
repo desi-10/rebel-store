@@ -9,15 +9,25 @@ import { Link } from "react-router-dom";
 
 const User = () => {
   const [userToggle, setUserToggle] = useState(false);
+  const [lightTheme, setLightTheme] = useState(false);
   return (
     <div className="relative">
-      <div onClick={() => setUserToggle(!userToggle)}>
-        <AiOutlineUser className="text-2xl" />
+      <div
+        onClick={() => setUserToggle(!userToggle)}
+        className="hover:bg-slate-900 p-2 rounded-full  cursor-pointer"
+      >
+        <AiOutlineUser className="text-2xl " />
       </div>
       {userToggle && (
         <div className="absolute top-10 right-0 px-5 rounded-xl bg-black w-[250px] font-bold">
           <div className=" flex items-center space-x-3 border-b py-5">
-            <p className="w-16 h-16 rounded-full bg-white"></p>
+            <p className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center">
+              <img
+                src="/assets/pexels-guilherme-almeida-1858175.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </p>
             <div>
               <p className=" truncate">Eden Smith</p>
               <p className="text-sm truncate">Los Angeles,CA</p>
@@ -52,9 +62,14 @@ const User = () => {
                 <i>
                   <HiOutlineLightBulb className="text-2xl" />
                 </i>
-                <p>Dark Theme</p>
+                <p>Light Theme</p>
               </Link>
-              <p className="w-10 h-5 bg-slate-500 rounded-full flex justify-start items-center px-[2px]">
+              <p
+                onClick={() => setLightTheme(!lightTheme)}
+                className={`w-10 h-5 bg-slate-500 rounded-full flex items-center px-[2px] cursor-pointer 
+                 ${lightTheme ? "justify-end" : " justify-start"} 
+                `}
+              >
                 <p className="w-4 h-4 rounded-full bg-white"></p>
               </p>
             </div>
