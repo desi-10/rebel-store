@@ -1,3 +1,5 @@
+import { CiSearch } from "react-icons/ci";
+
 const data = [
   {
     p: "In this seasn, find the best",
@@ -24,16 +26,18 @@ const Hero = () => {
 
   return (
     <section className="w-full py-10 bg-emerald-300">
-      <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] mx-auto">
-        <article className="font-bold">
-          <p>{p}</p>
-          <h2 className="text-2xl">{h1}</h2>
-          <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] mx-auto gap-10">
+        <article className="font-bold text-black">
+          <p className="text-xl mb-5">{p}</p>
+          <h2 className="text-4xl lg:text-5xl mb-5">{h1}</h2>
+          <button className="flex space-x-3 bg-white rounded-full py-2 px-5">
             <p>{btn}</p>
-            <p>///</p>
-          </div>
+            <p>
+              <CiSearch className="text-2xl" />
+            </p>
+          </button>
         </article>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden w-full h-[400px] flex justify-center items-center">
           <img src={img} alt="" className="w-full h-full object-cover" />
         </div>
       </div>
