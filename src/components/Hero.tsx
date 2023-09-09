@@ -5,13 +5,13 @@ const data = [
     p: "In this seasn, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
-    img: "/public/assets/assets/IMG_1959.PNG",
+    img: "/assets/assets/IMG_1959.PNG",
   },
   {
     p: "In this seasn, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
-    img: "/public/assets/assets/IMG_1960.PNG",
+    img: "/assets/assets/IMG_1960.PNG",
   },
   {
     p: "In this seasn, find the best",
