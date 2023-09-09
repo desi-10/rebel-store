@@ -6,7 +6,7 @@ import Cart from "./pages/Cart";
 
 function App() {
   return (
-    <section className="text-slate-400 bg-black">
+    <section className="text-slate-400 bg-slate-950">
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />

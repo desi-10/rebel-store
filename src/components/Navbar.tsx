@@ -13,7 +13,7 @@ const Navbar = () => {
   const [searchToggle, setSearchToggle] = useState(true);
 
   return (
-    <section className="border-b border-slate-500 sticky top-0 inset-x-0 bg-black text-slate-300">
+    <section className="border-b border-slate-500 sticky top-0 inset-x-0 bg-slate-950 text-slate-300">
       <nav className="flex justify-between items-center w-[90%] 2xl:w-[1440px] mx-auto py-5">
         <div onClick={() => setNavToggle(!navToggle)} className="lg:hidden">
           <RxHamburgerMenu className="text-2xl" />
