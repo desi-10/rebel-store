@@ -39,7 +39,7 @@ const Discover = () => {
             </div>
             <div className="w-full h-[200px] overflow-hidden">
               <img
-                src="/public/assets/pexels-guilherme-almeida-1858175.jpg"
+                src="/public/assets/assets/IMG_1966.PNG"
                 alt=""
                 className="object-cover w-full h-full"
               />

@@ -3,6 +3,7 @@ import Discover from "../components/home/Discover";
 import Earn from "../components/home/Earn";
 import Exploring from "../components/home/Exploring";
 import NewArrivals from "../components/home/NewArrivals";
+import Trending from "../components/home/Trending";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <NewArrivals />
       <Earn />
       <Exploring />
+      <Trending />
     </section>
   );
 };

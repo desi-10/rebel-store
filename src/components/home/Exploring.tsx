@@ -17,27 +17,26 @@ const Exploring = () => {
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Controller</p>
       </div>
 
-      <div className="flex flex-col justify-between mb-  bg-slate-800 p-5 rounded-xl h-[400px]">
-        <div className="flex justify-between items-center">
-          <div className="w-20 h-20 rounded-full bg-slate-100 flex justify-center items-center p-5">
-            <img
-              src="/public/assets/pexels-guilherme-almeida-1858175.jpg"
-              alt=""
-            />
+      <section className="grid grid-cols-1 lg:grid-cols-3">
+        <div className="flex flex-col justify-between mb-  bg-slate-800 p-5 rounded-xl h-[400px]">
+          <div className="flex justify-between items-center">
+            <div className="w-20 h-20 rounded-full bg-slate-100 flex justify-center items-center">
+              <img src="/public/assets/assets/IMG_1968.PNG" alt="" />
+            </div>
+            <p className="text-slate-100">124 products</p>
           </div>
-          <p className="text-slate-100">124 products</p>
-        </div>
-        <div className="mb-5">
-          <p>Manufacturer</p>
+          <div className="mb-5">
+            <p>Manufacturer</p>
 
-          <p className="text-2xl font-bold text-slate-100">Backpack</p>
-        </div>
+            <p className="text-2xl font-bold text-slate-100">Backpack</p>
+          </div>
 
-        <div className="flex space-x-5 items-center hover:text-blue-700">
-          <p>See Collection </p>
-          <i>///</i>
+          <div className="flex space-x-5 items-center hover:text-blue-700">
+            <p>See Collection </p>
+            <i>///</i>
+          </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 };

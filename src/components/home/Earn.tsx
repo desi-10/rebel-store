@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 const Earn = () => {
   return (
     <section className="">
-      <div className="w-[90%] lg:w-[1000px] mx-auto grid lg:grid-cols-2 gap-5">
+      <div className="w-[90%] mx-auto grid lg:grid-cols-2 gap-10">
         <section>
           <p className="mb-5">Logo</p>
+
           <h3 className="text-3xl font-bold text-white mb-5">
             Earn free money with Rebel
           </h3>
-          <p className="text-lg mb-5">
+
+          <p className="text-lg mb-10">
             With Rebel you will get freeship & saving combo..
           </p>
 
@@ -24,7 +26,9 @@ const Earn = () => {
             </Link>
           </div>
         </section>
-        <p>Image</p>
+        <div>
+          <img src="/public/assets/assets/IMG_1970.PNG" alt="" />
+        </div>
       </div>
     </section>
   );
