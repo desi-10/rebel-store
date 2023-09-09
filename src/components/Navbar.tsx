@@ -113,11 +113,11 @@ const Navbar = () => {
       {navToggle && (
         <div
           onClick={() => setNavToggle(!navToggle)}
-          className="fixed inset-0 bg-black/75 w-full h-full"
+          className="lg:hidden fixed inset-0 bg-slate-900/20 backdrop-blur-lg w-full h-full"
         ></div>
       )}
 
-      {navToggle && <Sidebar />}
+      {navToggle && <Sidebar setNavToggle={setNavToggle} />}
     </section>
   );
 };

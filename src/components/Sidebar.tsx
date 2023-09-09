@@ -3,13 +3,20 @@ import { CiSearch } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 import { PiMoon } from "react-icons/pi";
 
-const Sidebar = () => {
+type ISidebar = {
+  setNavToggle: (toggle: boolean) => void;
+};
+
+const Sidebar = ({ setNavToggle }: ISidebar) => {
   return (
-    <section className="fixed top-0 left-0 w-full h-full md:w-[400px] bg-black z-10 overflow-auto">
+    <section className="lg:hidden fixed top-0 left-0 w-full h-full md:w-[400px] bg-black z-10 overflow-auto">
       <aside className="p-5">
         <div className="flex justify-between items-center mb-5">
           <p>Logo</p>
-          <p className="p-2 rounded-full hover:bg-slate-900">
+          <p
+            onClick={() => setNavToggle(false)}
+            className="p-2 rounded-full hover:bg-slate-900"
+          >
             <VscClose className="text-2xl" />
           </p>
         </div>

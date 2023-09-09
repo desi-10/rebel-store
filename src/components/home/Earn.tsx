@@ -5,13 +5,23 @@ const Earn = () => {
     <section className="">
       <div className="w-[90%] lg:w-[1000px] mx-auto grid lg:grid-cols-2 gap-5">
         <section>
-          <p>Logo</p>
-          <h3>Earn free money with Rebel</h3>
-          <p>With REbel you will get freeship & saving combo..</p>
+          <p className="mb-5">Logo</p>
+          <h3 className="text-3xl font-bold text-white mb-5">
+            Earn free money with Rebel
+          </h3>
+          <p className="text-lg mb-5">
+            With Rebel you will get freeship & saving combo..
+          </p>
 
-          <div>
-            <Link to=""> Savings combo</Link>
-            <Link to="/"> Discover more</Link>
+          <div className="space-x-3">
+            <Link to="" className="p-3 rounded-full bg-slate-50 text-slate-900">
+              {" "}
+              Savings combo
+            </Link>
+            <Link to="/" className="p-3 rounded-full bg-slate-900">
+              {" "}
+              Discover more
+            </Link>
           </div>
         </section>
         <p>Image</p>

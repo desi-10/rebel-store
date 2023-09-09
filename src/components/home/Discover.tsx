@@ -22,7 +22,7 @@ const Discover = () => {
         </div>
 
         <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5 ">
-          <div className="p-5  grid grid-cols-2 bg-amber-100 shrink-0 rounded-xl gap-5 w-[450px]">
+          <div className="p-5  grid grid-cols-2 bg-amber-100 shrink-0 rounded-xl w-[450px]">
             <div className="flex flex-col justify-between">
               <div>
                 <p className="">Explore new arrivals</p>

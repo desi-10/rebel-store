@@ -26,7 +26,7 @@ const NewArrivals = () => {
         </div>
 
         <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5">
-          <div className=" shrink-0 w-full md:w-[320px] border">
+          <div className=" shrink-0 w-full md:w-[320px]">
             <div className="p-5 bg-gray-900 rounded-3xl mb-5">
               <div className="flex justify-end">
                 <p className="bg-black p-2 rounded-full">
@@ -38,7 +38,7 @@ const NewArrivals = () => {
 
               <div className="h-64"></div>
 
-              <section className="flex justify-center items-center space-x-2 text-sm">
+              <section className="hidden md:flex justify-center items-center space-x-2 text-sm">
                 <div className="flex items-center bg-white px-5 py-2 rounded-full shadow-lg text-black">
                   <i className="mr-2">
                     <PiBag />
@@ -55,10 +55,14 @@ const NewArrivals = () => {
               </section>
             </div>
 
-            <p>colors</p>
+            <div className="mb-3 space-x-3 flex">
+              <p className="w-10 h-5 rounded-full bg-red-500"></p>
+              <p className="w-10 h-5 rounded-full bg-blue-500"></p>
+              <p className="w-10 h-5 rounded-full bg-green-500"></p>
+            </div>
 
-            <p className="font-bold text-white">Leather Gloves</p>
-            <p>Perfect mint green</p>
+            <p className="font-bold text-white mb-2">Leather Gloves</p>
+            <p className="mb-5">Perfect mint green</p>
 
             <div className="flex justify-between items-center">
               <p className="py-1 px-5 text-green-500 border-2 border-green-500 rounded-lg">
