@@ -27,7 +27,7 @@ const Earn = () => {
           </div>
         </section>
         <div>
-          <img src="/public/assets/assets/IMG_1970.PNG" alt="" />
+          <img src="/assets/assets/IMG_1970.PNG" alt="" />
         </div>
       </div>
     </section>

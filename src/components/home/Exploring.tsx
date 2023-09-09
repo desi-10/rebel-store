@@ -21,7 +21,7 @@ const Exploring = () => {
         <div className="flex flex-col justify-between mb-  bg-slate-800 p-5 rounded-xl h-[400px]">
           <div className="flex justify-between items-center">
             <div className="w-20 h-20 rounded-full bg-slate-100 flex justify-center items-center">
-              <img src="/public/assets/assets/IMG_1968.PNG" alt="" />
+              <img src="/assets/assets/IMG_1968.PNG" alt="" />
             </div>
             <p className="text-slate-100">124 products</p>
           </div>

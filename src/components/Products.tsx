@@ -17,7 +17,7 @@ const Products = () => {
           </div>
 
           <div>
-            <img src="/public/assets/assets/IMG_1966.PNG" alt="" />
+            <img src="/assets/assets/IMG_1966.PNG" alt="" />
           </div>
 
           <section className="hidden md:flex justify-center items-center space-x-2 text-sm">
@@ -51,7 +51,7 @@ const Products = () => {
             $42.00
           </p>
           <div className="flex items-center space-x-3">
-            <FaStar className="text-xl" />
+            <FaStar className="text-xl text-amber-500" />
             <p> 4.4(61 reviews)</p>
           </div>
         </div>
