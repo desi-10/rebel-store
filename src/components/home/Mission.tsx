@@ -1,24 +1,24 @@
 const mission = [
   {
-    img: "/public/assets/assets/IMG_1971.PNG",
+    img: "/assets/assets/IMG_1971.PNG",
     step: "Step 1",
     title: "Filter & Discover",
     desc: "Smart filtering and suggesting make it easy to find",
   },
   {
-    img: "/public/assets/assets/IMG_1972.PNG",
+    img: "/assets/assets/IMG_1972.PNG",
     step: "Step 2",
     title: "Filter & Discover",
     desc: "Smart filtering and suggesting make it easy to find",
   },
   {
-    img: "/public/assets/assets/IMG_1973.PNG",
+    img: "/assets/assets/IMG_1973.PNG",
     step: "Step 3",
     title: "Filter & Discover",
     desc: "Smart filtering and suggesting make it easy to find",
   },
   {
-    img: "/public/assets/assets/IMG_1974.PNG",
+    img: "/assets/assets/IMG_1974.PNG",
     step: "Step 4",
     title: "Filter & Discover",
     desc: "Smart filtering and suggesting make it easy to find",
