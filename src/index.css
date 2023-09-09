@@ -8,3 +8,30 @@
   /* border: 1px solid red; */
   /* font-family: "karla"; */
 }
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the vertical scrollbar */
+  height: 0px; /* Set the height of the horizontal scrollbar */
+}
+
+/* Define the track (the background of the scrollbar) color */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Define the thumb (the draggable part of the scrollbar) color */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Define the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* For Firefox */
+/* Note: Firefox has its own proprietary scrollbar properties */
+/* These properties may change over time, so check the latest documentation */
+/* scrollbar-width: thin; Set the width of the scrollbar */
+/* scrollbar-color: #888 #f1f1f1; Set the thumb and track colors */

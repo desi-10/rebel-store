@@ -1,3 +1,5 @@
+import { LuFilter } from "react-icons/lu";
+
 import Products from "../Products";
 
 const Trending = () => {
@@ -8,7 +10,7 @@ const Trending = () => {
       </h3>
       <p className="mb-5">Discover the most trending products in Rebel</p>
 
-      <div className="flex items-center justify-between text-sm">
+      <div className="flex items-center justify-between text-sm overflow-x-scroll flex-shrink-0">
         <p className="hover:bg-slate-100 hover:text-slate-900 py-2 px-5 rounded-full active:bg-slate-100 mb-5">
           All items
         </p>
@@ -27,7 +29,9 @@ const Trending = () => {
       </div>
 
       <div className="flex space-x-3  justify-center items-center p-2 bg-slate-100 rounded-full mb-5">
-        <i>///</i>
+        <i>
+          <LuFilter />
+        </i>
         <p>Filter</p>
       </div>
       <Products />
