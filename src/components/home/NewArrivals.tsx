@@ -4,8 +4,8 @@ import Products from "../Products";
 
 const NewArrivals = () => {
   return (
-    <section>
-      <div className="w-[90%] 2xl:w-[1440px] mx-auto py-20">
+    <section className="py-10">
+      <div className="w-[90%] 2xl:w-[1440px] mx-auto py-10">
         <div className="flex justify-between items-center">
           <h3 className="text-4xl font-bold text-slate-100">
             New Arrivals. {""}

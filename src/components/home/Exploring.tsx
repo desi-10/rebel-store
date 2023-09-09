@@ -1,11 +1,12 @@
+import { BsArrowRight } from "react-icons/bs";
 const Exploring = () => {
   return (
-    <section className="w-[90%] mx-auto">
+    <section className="w-[90%] mx-auto py-10">
       <h3 className="text-3xl text-center mb-5 text-slate-100 font-bold">
         Start Exploring
       </h3>
 
-      <div className="flex justify-between items-center overflow-x-scroll flex-shrink-0 text-xs bg-slate-700 rounded-full p-1 w-full mb-10">
+      <div className="flex justify-between items-center overflow-x-scroll flex-shrink-0 text-xs bg-gray-900 rounded-full p-1 w-full mb-10">
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Men</p>
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Women</p>
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Kids</p>
@@ -17,8 +18,8 @@ const Exploring = () => {
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Controller</p>
       </div>
 
-      <section className="grid grid-cols-1 lg:grid-cols-3">
-        <div className="flex flex-col justify-between mb-  bg-slate-800 p-5 rounded-xl h-[400px]">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-col justify-between mb-  bg-gray-900 p-5 rounded-xl h-[400px]">
           <div className="flex justify-between items-center">
             <div className="w-20 h-20 rounded-full bg-slate-100 flex justify-center items-center">
               <img src="/assets/assets/IMG_1968.PNG" alt="" />
@@ -33,7 +34,9 @@ const Exploring = () => {
 
           <div className="flex space-x-5 items-center hover:text-blue-700">
             <p>See Collection </p>
-            <i>///</i>
+            <i>
+              <BsArrowRight />
+            </i>
           </div>
         </div>
       </section>

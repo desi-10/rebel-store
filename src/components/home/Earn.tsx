@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Earn = () => {
   return (
-    <section className="">
+    <section className="py-10">
       <div className="w-[90%] mx-auto grid lg:grid-cols-2 gap-10">
         <section>
           <p className="mb-5">Logo</p>
