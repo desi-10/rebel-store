@@ -1,5 +1,3 @@
-import React from "react";
-
 const Exploring = () => {
   return (
     <section className="w-[90%] mx-auto">
