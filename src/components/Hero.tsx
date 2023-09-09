@@ -25,7 +25,7 @@ const Hero = () => {
   const { p, h1, btn, img } = data[0];
 
   return (
-    <section className="w-full py-10 bg-emerald-300">
+    <section className="w-full py-10 bg-emerald-200">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] mx-auto gap-10">
         <article className="font-bold text-black">
           <p className="text-xl mb-5">{p}</p>

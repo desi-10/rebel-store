@@ -5,13 +5,14 @@ import {
 } from "react-icons/ai";
 import { PiBag } from "react-icons/pi";
 import { HiArrowsPointingOut } from "react-icons/hi2";
+import { FaStar } from "react-icons/fa";
 
 const NewArrivals = () => {
   return (
     <section>
       <div className="w-[90%] 2xl:w-[1440px] mx-auto py-20">
         <div className="flex justify-between items-center">
-          <h3 className="text-4xl font-bold">
+          <h3 className="text-4xl font-bold text-slate-100">
             New Arrivals. {""}
             <span className="text-slate-500">REY backpacks & bags</span>
           </h3>
@@ -26,7 +27,7 @@ const NewArrivals = () => {
         </div>
 
         <section className="flex flex-shrink-0 flex-auto gap-10 overflow-x-scroll w-full py-5">
-          <div className=" shrink-0 w-full md:w-[320px]">
+          <div className=" shrink-0 w-[300px] md:w-[320px]">
             <div className="p-5 bg-gray-900 rounded-3xl mb-5">
               <div className="flex justify-end">
                 <p className="bg-black p-2 rounded-full">
@@ -61,14 +62,17 @@ const NewArrivals = () => {
               <p className="w-10 h-5 rounded-full bg-green-500"></p>
             </div>
 
-            <p className="font-bold text-white mb-2">Leather Gloves</p>
+            <p className="font-bold text-slate-100 mb-2">Leather Gloves</p>
             <p className="mb-5">Perfect mint green</p>
 
             <div className="flex justify-between items-center">
               <p className="py-1 px-5 text-green-500 border-2 border-green-500 rounded-lg">
                 $42.00
               </p>
-              <p>/// 4.4(61 reviews)</p>
+              <div className="flex items-center space-x-3">
+                <FaStar className="text-xl" />
+                <p> 4.4(61 reviews)</p>
+              </div>
             </div>
           </div>
         </section>
