@@ -5,7 +5,13 @@ const Earn = () => {
     <section className="py-10">
       <div className="w-[90%] mx-auto grid lg:grid-cols-2 gap-10">
         <section>
-          <p className="mb-5">Logo</p>
+          <div className="w-10 h-10 rounded-full overflow-hidden mb-5">
+            <img
+              src="/public/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+              alt=""
+              className="w-full h-full"
+            />
+          </div>
 
           <h3 className="text-3xl font-bold text-white mb-5">
             Earn free money with Rebel

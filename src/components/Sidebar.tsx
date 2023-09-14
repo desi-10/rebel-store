@@ -12,7 +12,13 @@ const Sidebar = ({ setNavToggle }: ISidebar) => {
     <section className="lg:hidden fixed top-0 left-0 w-full h-full md:w-[400px] bg-black z-10 overflow-auto">
       <aside className="p-5">
         <div className="flex justify-between items-center mb-5">
-          <p>Logo</p>
+          <div className="w-16 h-16 rounded-full overflow-hidden">
+            <img
+              src="/public/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+              alt=""
+              className="w-full h-full"
+            />
+          </div>
           <p
             onClick={() => setNavToggle(false)}
             className="p-2 rounded-full hover:bg-slate-900"

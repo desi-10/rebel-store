@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 
 const data = [
@@ -17,12 +19,29 @@ const data = [
     p: "In this season, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
-    img: "/assets/pexels-guilherme-almeida-1858175.jpg",
+    img: "/assets/assets/IMG_1961.PNG",
   },
 ];
 
 const Hero = () => {
-  const { p, h1, btn, img } = data[0];
+  const [value, setValue] = useState(0);
+  const { p, h1, btn, img } = data[value];
+
+  const increase = () => {
+    if (value === data.length - 1) {
+      setValue(0);
+    } else {
+      setValue((prev) => prev + 1);
+    }
+  };
+
+  const decrease = () => {
+    if (value === 0) {
+      setValue(data.length - 1);
+    } else {
+      setValue((prev) => prev + 1);
+    }
+  };
 
   return (
     <section className="relative w-full py-10 lg:p-0 bg-emerald-200">
@@ -41,8 +60,16 @@ const Hero = () => {
           <img src={img} alt="" className="w-full h-full object-cover" />
         </div>
       </div>
-      <i className="absolute top-[50%] left-3">///</i>
-      <i className="absolute top-[50%] right-3">///</i>
+      <div onClick={decrease} className="absolute top-[50%] left-3">
+        <i className="border rounded-full p-2 text-slate-100">
+          <AiOutlineArrowLeft className="text-2xl rounded-full" />
+        </i>
+      </div>
+      <div onClick={increase} className="absolute top-[50%] right-3">
+        <i className="border rounded-full p-2 text-slate-100">
+          <AiOutlineArrowRight className="text-2xl rounded-full" />
+        </i>
+      </div>
     </section>
   );
 };

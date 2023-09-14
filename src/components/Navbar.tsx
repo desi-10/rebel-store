@@ -18,7 +18,18 @@ const Navbar = () => {
         <div onClick={() => setNavToggle(!navToggle)} className="lg:hidden">
           <RxHamburgerMenu className="text-2xl" />
         </div>
-        <Link to="/">Logo</Link>
+        <Link to="/">
+          <section className="flex justify-between items-center space-x-2 w-full">
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src="/public/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+                alt=""
+                className="w-full h-full"
+              />
+            </div>
+            <h1 className="font-bold text-lg">Rebels</h1>
+          </section>
+        </Link>
 
         {searchToggle && (
           <ul className="hidden lg:flex items-center">

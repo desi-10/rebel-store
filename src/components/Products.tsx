@@ -2,10 +2,11 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { PiBag } from "react-icons/pi";
 import { HiArrowsPointingOut } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
-    <>
+    <Link to="/products">
       <div className=" shrink-0 w-[300px] md:w-[320px]">
         <div className="p-5 bg-gray-900 rounded-3xl mb-5">
           <div className="flex justify-end">
@@ -56,7 +57,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </>
+    </Link>
   );
 };
 

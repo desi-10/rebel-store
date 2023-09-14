@@ -6,7 +6,7 @@ const Exploring = () => {
         Start Exploring
       </h3>
 
-      <div className="flex justify-between items-center overflow-x-scroll flex-shrink-0 text-xs bg-gray-900 rounded-full p-1 w-full mb-10">
+      <div className="flex justify-between items-center overflow-x-scroll flex-shrink-0 text-xs bg-gray-900 rounded-full p-1 w-full mb-10 lg:w-[500px] mx-auto">
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Men</p>
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Women</p>
         <p className="hover:bg-slate-800 py-2 px-5 rounded-full">Kids</p>
