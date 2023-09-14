@@ -4,7 +4,7 @@ const Products = () => {
       <div className="">
         <div className="w-full overflow-hidden">
           <img
-            src="/public/assets/assets/IMG_1968.PNG"
+            src="/assets/assets/IMG_1968.PNG"
             className="w-full h-full object-cover"
             alt=""
           />
@@ -12,7 +12,6 @@ const Products = () => {
 
         <div className="grid grid-rows-1 grid-cols-2">
           <div className="h-full">
-            {/* Make this div span to the bottom */}
             <img
               src="/public/assets/assets/IMG_1967.PNG"
               className="h-full w-full object-cover"
@@ -21,10 +20,10 @@ const Products = () => {
           </div>
           <div>
             <div className="">
-              <img src="/public/assets/assets/IMG_1969.PNG" alt="" />
+              <img src="/assets/assets/IMG_1969.PNG" alt="" />
             </div>
             <div className="">
-              <img src="/public/assets/assets/IMG_1969.PNG" alt="" />
+              <img src="/assets/assets/IMG_1969.PNG" alt="" />
             </div>
           </div>
         </div>

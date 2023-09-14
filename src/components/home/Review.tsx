@@ -11,7 +11,7 @@ const Review = () => {
       <div className="relative w-20 h-20 rounded-full mx-auto mb-10">
         <div className="absolute top-1 -left-2 bg-emerald-500 rounded-full w-full h-full"></div>
         <img
-          src="/public/assets/assets/IMG_1962.PNG"
+          src="/assets/assets/IMG_1961.PNG"
           className="bg-black absolute top-0 left-0 z-10 w-full h-full rounded-full"
           alt=""
         />

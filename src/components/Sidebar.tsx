@@ -14,7 +14,7 @@ const Sidebar = ({ setNavToggle }: ISidebar) => {
         <div className="flex justify-between items-center mb-5">
           <div className="w-16 h-16 rounded-full overflow-hidden">
             <img
-              src="/public/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+              src="/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
               alt=""
               className="w-full h-full"
             />

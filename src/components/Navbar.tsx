@@ -22,7 +22,7 @@ const Navbar = () => {
           <section className="flex justify-between items-center space-x-2 w-full">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
-                src="/public/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+                src="/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
                 alt=""
                 className="w-full h-full"
               />
