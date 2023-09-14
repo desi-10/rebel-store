@@ -28,9 +28,9 @@ const Mission = () => {
   return (
     <section className="py-10">
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
-        {mission.map((item) => {
+        {mission.map((item, idx) => {
           return (
-            <section className="text-center mb-10">
+            <section key={idx} className="text-center mb-10">
               <div className="w-36 h-36 rounded-xl overflow-hidden mx-auto mb-5">
                 <img src={item.img} alt="" />
               </div>

@@ -4,6 +4,7 @@ import Earn from "../components/home/Earn";
 import Exploring from "../components/home/Exploring";
 import Mission from "../components/home/Mission";
 import NewArrivals from "../components/home/NewArrivals";
+import Review from "../components/home/Review";
 import Trending from "../components/home/Trending";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Earn />
       <Exploring />
       <Trending />
+      <Review />
     </section>
   );
 };

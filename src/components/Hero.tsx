@@ -2,19 +2,19 @@ import { CiSearch } from "react-icons/ci";
 
 const data = [
   {
-    p: "In this seasn, find the best",
+    p: "In this season, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
     img: "/assets/assets/IMG_1959.PNG",
   },
   {
-    p: "In this seasn, find the best",
+    p: "In this season, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
     img: "/assets/assets/IMG_1960.PNG",
   },
   {
-    p: "In this seasn, find the best",
+    p: "In this season, find the best",
     h1: "Exclusive collection for everyone",
     btn: "Explore now",
     img: "/assets/pexels-guilherme-almeida-1858175.jpg",
@@ -25,7 +25,7 @@ const Hero = () => {
   const { p, h1, btn, img } = data[0];
 
   return (
-    <section className="w-full py-10 lg:p-0 bg-emerald-200">
+    <section className="relative w-full py-10 lg:p-0 bg-emerald-200">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] mx-auto gap-10 items-center">
         <article className="font-bold text-black">
           <p className="text-xl mb-5">{p}</p>
@@ -41,6 +41,8 @@ const Hero = () => {
           <img src={img} alt="" className="w-full h-full object-cover" />
         </div>
       </div>
+      <i className="absolute top-[50%] left-3">///</i>
+      <i className="absolute top-[50%] right-3">///</i>
     </section>
   );
 };

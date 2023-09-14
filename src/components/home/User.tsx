@@ -19,7 +19,7 @@ const User = () => {
         <AiOutlineUser className="text-2xl " />
       </div>
       {userToggle && (
-        <div className="absolute top-10 right-0 px-5 rounded-xl bg-black w-[250px] font-bold">
+        <div className="absolute top-10 right-0 px-5 rounded-xl bg-slate-900 w-[250px] ">
           <div className=" flex items-center space-x-3 border-b py-5">
             <p className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center">
               <img
@@ -29,7 +29,7 @@ const User = () => {
               />
             </p>
             <div>
-              <p className=" truncate">Eden Smith</p>
+              <p className=" truncate font-bold">Eden Smith</p>
               <p className="text-sm truncate">Los Angeles,CA</p>
             </div>
           </div>
