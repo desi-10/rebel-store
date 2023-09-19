@@ -2,8 +2,14 @@ const Footer = () => {
   return (
     <section className="py-10">
       <footer className="lg:flex justify-between w-[90%] lg:w-[1000px] mx-auto">
-        <div className="flex lg:flex-col space-x-5 lg:space-x-0 mr-10">
-          <p className="mb-5">Logo</p>
+        <div className="flex items-center lg:flex-col space-x-5 lg:space-x-0 mr-10 mb-5">
+          <div className="w-10 h-10 rounded-full overflow-hidden">
+            <img
+              src="/assets/02ec642b-414e-43fd-8b61-e5992c0b4868.JPG"
+              alt=""
+              className="w-full h-full"
+            />
+          </div>
           <div className="flex lg:block space-x-3 text-sm">
             <p>Facebook</p>
           </div>
