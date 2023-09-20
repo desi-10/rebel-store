@@ -8,8 +8,8 @@ import { RiRefund2Line } from "react-icons/ri";
 
 const Products = () => {
   return (
-    <main className="w-[90%] mx-auto">
-      <section className=" grid grid-cols-1 lg:grid-cols-2 lg:py-20 lg:space-x-5">
+    <main className="w-[90%] mx-auto py-10">
+      <section className=" grid grid-cols-1 lg:grid-cols-2 lg:space-x-5 mb-10">
         <div className="grid gap-5 mb-5">
           <div className="w-full overflow-hidden bg-slate-100 rounded-2xl">
             <img
