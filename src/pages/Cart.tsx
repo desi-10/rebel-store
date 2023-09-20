@@ -1,6 +1,8 @@
+import { AiOutlineCheck } from "react-icons/ai";
 import { BiMinus } from "react-icons/bi";
 import { BsArrowsAngleExpand, BsPlus } from "react-icons/bs";
 import { CgColorBucket } from "react-icons/cg";
+import { IoMdInformationCircleOutline } from "react-icons/io";
 
 const Cart = () => {
   return (
@@ -72,9 +74,12 @@ const Cart = () => {
               </div>
 
               <div className="flex items-center justify-between">
-                <p className="px-2 p-1 text-xs rounded-full border whitespace-nowrap">
-                  /// In Stock
-                </p>
+                <div className="flex items-center px-2 p-1 text-xs md:text-md rounded-full border border-slate-800 whitespace-nowrap">
+                  <span className="mr-2">
+                    <AiOutlineCheck />
+                  </span>
+                  In Stock
+                </div>
                 <p className="text-sm text-blue-900">Remove</p>
               </div>
             </div>
@@ -109,8 +114,10 @@ const Cart = () => {
             Checkout
           </button>
 
-          <div className="flex space-x-3 justify-center ">
-            <p>///</p>
+          <div className="flex lg:items-center justify-center">
+            <span className="mr-2">
+              <IoMdInformationCircleOutline />
+            </span>
             <p>
               Learn more <span className="text-slate-100 underline">Taxes</span>{" "}
               and <span className="text-slate-100 underline">Shipping</span>{" "}
