@@ -1,3 +1,7 @@
+import { BiMinus } from "react-icons/bi";
+import { BsArrowsAngleExpand, BsPlus } from "react-icons/bs";
+import { CgColorBucket } from "react-icons/cg";
+
 const Cart = () => {
   return (
     <section className="w-[90%] mx-auto py-5">
@@ -10,25 +14,37 @@ const Cart = () => {
       </div>
 
       <section className="grid lg:grid-cols-3 relative gap-5">
-        <section className="lg:col-span-2 border-r border-slate-800 pr-10">
+        <section className="lg:col-span-2 lg:border-r border-slate-800 lg:pr-10">
           <div className="flex gap-3 lg:gap-5 py-10 border-b border-slate-800 mb-5  lg:h-[250px]">
             <div className="bg-slate-100 rounded-xl md:w-[200px]  flex justify-center items-center">
               <img src="/assets/assets/IMG_1968.PNG" alt="" />
             </div>
 
             <div className="space-y-3 w-full md:flex flex-col justify-between">
-              <div>
-                <section className=" md:flex items-center justify-between">
+              <div className="">
+                <section className="md:flex items-center justify-between">
                   <p className="truncate text-slate-100 font-bold text-lg">
                     Leather Gloves
                   </p>
 
-                  <div className="flex md:hidden items-center space-x-3">
-                    <p>/// Black</p>
-                    <p>/// 2xl</p>
+                  <div className="flex md:hidden items-center space-x-3 mb-3">
+                    <div className="flex items-center space-x-1  text-slate-100 border-r pr-5 border-slate-700">
+                      <CgColorBucket /> <span>Black</span>
+                    </div>
+                    <div className="flex items-center space-x-1  text-slate-100 pl-3">
+                      <BsArrowsAngleExpand /> <span>2xl</span>
+                    </div>
                   </div>
 
-                  <div className="hidden md:flex items-center">aswld</div>
+                  <div className="hidden md:flex items-center space-x-5">
+                    <i className="p-1 rounded-full border border-slate-800">
+                      <BiMinus className="text-2xl" />
+                    </i>
+                    <p className="text-xl text-slate-100">1</p>
+                    <i className="p-1 rounded-full border border-slate-800">
+                      <BsPlus className="text-2xl" />
+                    </i>
+                  </div>
 
                   <div className="flex items-center justify-between">
                     <select
@@ -46,104 +62,12 @@ const Cart = () => {
                 </section>
 
                 <div className="hidden md:flex items-center space-x-3">
-                  <p>/// Black</p>
-                  <p>/// 2xl</p>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <p className="px-2 p-1 text-xs rounded-full border whitespace-nowrap">
-                  /// In Stock
-                </p>
-                <p className="text-sm text-blue-900">Remove</p>
-              </div>
-            </div>
-          </div>
-          <div className="flex gap-3 lg:gap-5 py-10 border-b border-slate-800 mb-5  lg:h-[300px]">
-            <div className="bg-slate-100 rounded-xl md:w-[230px]  flex justify-center items-center">
-              <img src="/assets/assets/IMG_1967.PNG" alt="" />
-            </div>
-
-            <div className="space-y-3 w-full md:flex flex-col justify-between">
-              <div>
-                <section className=" md:flex items-center justify-between">
-                  <p className="truncate text-slate-100 font-bold text-lg">
-                    Leather Gloves
-                  </p>
-
-                  <div className="flex md:hidden items-center space-x-3">
-                    <p>/// Black</p>
-                    <p>/// 2xl</p>
+                  <div className="flex items-center space-x-1  text-slate-100 border-r pr-5 border-slate-700">
+                    <CgColorBucket /> <span>Black</span>
                   </div>
-
-                  <div className="hidden md:flex items-center">aswld</div>
-
-                  <div className="flex items-center justify-between">
-                    <select
-                      name=""
-                      id=""
-                      className="md:hidden py-2 px-3 bg-gray-800 rounded-lg"
-                    >
-                      <option value="">1</option>
-                    </select>
-
-                    <p className="border-2 rounded-lg py-1 px-3 border-green-500 text-green-500">
-                      $74.00
-                    </p>
+                  <div className="flex items-center space-x-1  text-slate-100 pl-3">
+                    <BsArrowsAngleExpand /> <span>2xl</span>
                   </div>
-                </section>
-
-                <div className="hidden md:flex items-center space-x-3">
-                  <p>/// Black</p>
-                  <p>/// 2xl</p>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <p className="px-2 p-1 text-xs rounded-full border whitespace-nowrap">
-                  /// In Stock
-                </p>
-                <p className="text-sm text-blue-900">Remove</p>
-              </div>
-            </div>
-          </div>
-          <div className="flex gap-3 lg:gap-5 py-10 border-b border-slate-800 mb-5  lg:h-[300px]">
-            <div className="bg-slate-100 rounded-xl md:w-[230px]  flex justify-center items-center">
-              <img src="/assets/assets/IMG_1966.PNG" alt="" />
-            </div>
-
-            <div className="space-y-3 w-full md:flex flex-col justify-between">
-              <div>
-                <section className=" md:flex items-center justify-between">
-                  <p className="truncate text-slate-100 font-bold text-lg">
-                    Leather Gloves
-                  </p>
-
-                  <div className="flex md:hidden items-center space-x-3">
-                    <p>/// Black</p>
-                    <p>/// 2xl</p>
-                  </div>
-
-                  <div className="hidden md:flex items-center">aswld</div>
-
-                  <div className="flex items-center justify-between">
-                    <select
-                      name=""
-                      id=""
-                      className="md:hidden py-2 px-3 bg-gray-800 rounded-lg"
-                    >
-                      <option value="">1</option>
-                    </select>
-
-                    <p className="border-2 rounded-lg py-1 px-3 border-green-500 text-green-500">
-                      $74.00
-                    </p>
-                  </div>
-                </section>
-
-                <div className="hidden md:flex items-center space-x-3">
-                  <p>/// Black</p>
-                  <p>/// 2xl</p>
                 </div>
               </div>
 
