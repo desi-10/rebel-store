@@ -114,7 +114,7 @@ const Cart = () => {
             Checkout
           </button>
 
-          <div className="flex lg:items-center justify-center">
+          <div className="flex items-center justify-center">
             <span className="mr-2">
               <IoMdInformationCircleOutline />
             </span>
