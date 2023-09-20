@@ -5,11 +5,12 @@ import { TbArrowsExchange, TbTruckDelivery } from "react-icons/tb";
 import { WiStars } from "react-icons/wi";
 import { TfiWorld } from "react-icons/tfi";
 import { RiRefund2Line } from "react-icons/ri";
+import { PiBag } from "react-icons/pi";
 
 const Products = () => {
   return (
     <main className="w-[90%] mx-auto py-10">
-      <section className=" grid grid-cols-1 lg:grid-cols-2 lg:space-x-5 mb-10">
+      <section className=" grid  lg:grid-cols-2 lg:gap-10 mb-10">
         <div className="grid gap-5 mb-5">
           <div className="w-full overflow-hidden bg-slate-100 rounded-2xl">
             <img
@@ -45,16 +46,16 @@ const Products = () => {
                 $108.00
               </p>
               <section className="flex items-center text-sm lg:text-base border-l pl-5 border-slate-800">
-                <i className="mr-2">
+                <i className="mr-2 lg:mr-3">
                   <FaStar className="text-amber-500" />
                 </i>
-                <p className="text-slate-100">
+                <p className="text-slate-100 lg:mr-3">
                   4.9 *{" "}
                   <span className="underline text-slate-500">145 reviews</span>
                 </p>
                 <p className="hidden md:flex text-slate-100 items-center">
                   <i>
-                    <WiStars />
+                    <WiStars className="text-2xl" />
                   </i>
                   <span>New in</span>
                 </p>
@@ -83,7 +84,7 @@ const Products = () => {
               </div>
             </section>
 
-            <section className="flex items-center justify-between space-x-5">
+            <section className="flex items-center justify-between space-x-3 lg:space-x-5">
               <div className="flex items-center space-x-5 bg-gray-800 rounded-full p-2">
                 <i className="p-1 rounded-full border border-slate-700 bg-slate-900">
                   <BiMinus className="text-2xl" />
@@ -93,8 +94,9 @@ const Products = () => {
                   <BsPlus className="text-2xl" />
                 </i>
               </div>
-              <button className="w-full py-3 px-5 text-slate-900 bg-slate-100 text-center rounded-full">
-                Add to cart
+              <button className="flex items-center justify-center w-full py-3 px-5 text-slate-900 bg-slate-100 text-center rounded-full whitespace-nowrap">
+                <PiBag className="lg:text-xl" />{" "}
+                <span className="ml-2">Add to cart</span>
               </button>
             </section>
           </div>

@@ -39,7 +39,7 @@ const Hero = () => {
     if (value === 0) {
       setValue(data.length - 1);
     } else {
-      setValue((prev) => prev + 1);
+      setValue((prev) => prev - 1);
     }
   };
 
