@@ -16,7 +16,7 @@ const Cart = () => {
       </div>
 
       <section className="grid lg:grid-cols-3 relative gap-5">
-        <section className="lg:col-span-2 lg:border-r border-slate-800 lg:pr-10">
+        <section className="h-screen lg:col-span-2 lg:border-r border-slate-800 lg:pr-10 overflow-y-scroll">
           <div className="flex gap-3 lg:gap-5 py-10 border-b border-slate-800 mb-5  lg:h-[250px]">
             <div className="bg-slate-100 rounded-xl md:w-[200px]  flex justify-center items-center">
               <img src="/assets/assets/IMG_1968.PNG" alt="" />
@@ -86,7 +86,7 @@ const Cart = () => {
           </div>
         </section>
 
-        <div className="py-10 sticky top-0 right-0">
+        <div className="py-10 sticky top-0">
           <h2 className="text-xl text-slate-100 font-bold mb-5">
             Order Summary
           </h2>

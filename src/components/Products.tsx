@@ -21,7 +21,7 @@ const Products = () => {
             <img src="/assets/assets/IMG_1966.PNG" alt="" />
           </div>
         </Link>
-        <section className="translate-y-[200%] group-hover:translate-y-0 transition-all duration-300 absolute bottom-5 left-3.5 z-10 flex justify-center items-center space-x-2 text-sm ">
+        <section className="translate-y-[200%] group-hover:translate-y-0 transition-all duration-300 absolute bottom-5 left-3.5 lg:left-6 z-10 flex justify-center items-center space-x-2 text-sm ">
           <div className="flex items-center bg-white px-5 py-2 rounded-full shadow-lg text-black  whitespace-nowrap">
             <i className="mr-2">
               <PiBag />

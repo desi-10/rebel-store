@@ -1,11 +1,12 @@
+import { TbArrowsExchange, TbTruckDelivery } from "react-icons/tb";
 import { BiMinus } from "react-icons/bi";
 import { BsPlus } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
-import { TbArrowsExchange, TbTruckDelivery } from "react-icons/tb";
 import { WiStars } from "react-icons/wi";
 import { TfiWorld } from "react-icons/tfi";
 import { RiRefund2Line } from "react-icons/ri";
 import { PiBag } from "react-icons/pi";
+import ProductDescription from "../components/productDescription";
 
 const Products = () => {
   return (
@@ -100,66 +101,42 @@ const Products = () => {
               </button>
             </section>
           </div>
-          <div>
-            <summary>
-              <p>Description</p>
-              <details>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                tempore modi nulla nemo hic itaque, dignissimos laboriosam,
-                incidunt iure, voluptate quis natus sint earum optio repellat.
-                Porro a atque adipisci.
-              </details>
-            </summary>
-            <summary>
-              <p>Description</p>
-              <details>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                tempore modi nulla nemo hic itaque, dignissimos laboriosam,
-                incidunt iure, voluptate quis natus sint earum optio repellat.
-                Porro a atque adipisci.
-              </details>
-            </summary>
-            <summary>
-              <p>Description</p>
-              <details>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                tempore modi nulla nemo hic itaque, dignissimos laboriosam,
-                incidunt iure, voluptate quis natus sint earum optio repellat.
-                Porro a atque adipisci.
-              </details>
-            </summary>
-          </div>
+
+          <section>
+            <ProductDescription />
+          </section>
+
+          <section className="grid lg:grid-cols-2 gap-5 mb-10">
+            <div className="bg-orange-200 p-5 rounded-2xl text-xl">
+              <i className="text-slate-900">
+                <TbTruckDelivery className="text-2xl mb-2" />
+              </i>
+              <p className="text-slate-900">Free shipping</p>
+              <small>On orders over $50.00</small>
+            </div>
+            <div className="bg-blue-200 p-5 rounded-2xl text-xl">
+              <i className="text-slate-900">
+                <TbArrowsExchange className="text-2xl mb-2" />
+              </i>
+              <p className="text-slate-900">Very easy to return</p>
+              <small>Just phone number</small>
+            </div>
+            <div className="bg-green-200 p-5 rounded-2xl text-xl">
+              <i className="text-slate-900">
+                <TfiWorld className="text-2xl mb-2" />
+              </i>
+              <p className="text-slate-900">Nationwide Delivery</p>
+              <small>Fast delivery nationwide</small>
+            </div>
+            <div className="bg-yellow-200 p-5 rounded-2xl text-xl">
+              <i className="text-slate-900">
+                <RiRefund2Line className="text-2xl mb-2" />
+              </i>
+              <p className="text-slate-900">Refund Policy</p>
+              <small>60 days return for any reason</small>
+            </div>
+          </section>
         </section>
-      </section>
-      <section className="grid lg:grid-cols-2 gap-5 mb-10">
-        <div className="bg-orange-200 p-5 rounded-2xl text-xl">
-          <i className="text-slate-900">
-            <TbTruckDelivery className="text-2xl mb-2" />
-          </i>
-          <p className="text-slate-900">Free shipping</p>
-          <small>On orders over $50.00</small>
-        </div>
-        <div className="bg-blue-200 p-5 rounded-2xl text-xl">
-          <i className="text-slate-900">
-            <TbArrowsExchange className="text-2xl mb-2" />
-          </i>
-          <p className="text-slate-900">Very easy to return</p>
-          <small>Just phone number</small>
-        </div>
-        <div className="bg-green-200 p-5 rounded-2xl text-xl">
-          <i className="text-slate-900">
-            <TfiWorld className="text-2xl mb-2" />
-          </i>
-          <p className="text-slate-900">Nationwide Delivery</p>
-          <small>Fast delivery nationwide</small>
-        </div>
-        <div className="bg-yellow-200 p-5 rounded-2xl text-xl">
-          <i className="text-slate-900">
-            <RiRefund2Line className="text-2xl mb-2" />
-          </i>
-          <p className="text-slate-900">Refund Policy</p>
-          <small>60 days return for any reason</small>
-        </div>
       </section>
 
       <section>

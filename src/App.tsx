@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
-import Products from "./pages/Products";
+import Products from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
+import Categories from "./pages/Categories";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/categories" element={<Categories />} />
         </Route>
       </Routes>
     </section>

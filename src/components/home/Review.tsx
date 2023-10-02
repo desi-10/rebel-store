@@ -2,7 +2,7 @@ import { FaStar } from "react-icons/fa";
 
 const Review = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 w-[90%] lg:w-[500px] mx-auto">
       <h2 className="text-center font-bold text-3xl text-slate-100 mb-2">
         Good news from far away
       </h2>
