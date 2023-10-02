@@ -19,7 +19,7 @@ const User = () => {
         <AiOutlineUser className="text-2xl " />
       </div>
       {userToggle && (
-        <div className="absolute top-10 right-0 px-5 rounded-xl bg-slate-900 w-[250px] ">
+        <div className="absolute z-10 top-10 right-0 px-3 rounded-xl bg-slate-900 w-[250px]">
           <div className=" flex items-center space-x-3 border-b py-5">
             <p className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center">
               <img
@@ -34,20 +34,29 @@ const User = () => {
             </div>
           </div>
 
-          <section className="py-5 border-b space-y-2">
-            <Link to="" className="flex items-center space-x-3">
+          <section className="py-2 border-b">
+            <Link
+              to=""
+              className="flex items-center space-x-3 rounded-lg hover:bg-gray-800 py-2 px-3"
+            >
               <i>
                 <CiUser className="text-2xl" />
               </i>
               <p>My Account</p>
             </Link>
-            <Link to="" className="flex items-center space-x-3">
+            <Link
+              to=""
+              className="flex items-center space-x-3 rounded-lg hover:bg-gray-800 py-2 px-3"
+            >
               <i>
                 <RiFilePaperLine className="text-2xl" />
               </i>
               <p>My Order</p>
             </Link>
-            <Link to="" className="flex items-center space-x-3">
+            <Link
+              to=""
+              className="flex items-center space-x-3 rounded-lg hover:bg-gray-800 py-2 px-3"
+            >
               <i>
                 {" "}
                 <AiOutlineHeart className="text-2xl" />
@@ -56,8 +65,8 @@ const User = () => {
             </Link>
           </section>
 
-          <section className="py-5 space-y-2">
-            <div className="flex items-center justify-between">
+          <section className="py-2">
+            <div className="flex items-center justify-between rounded-lg hover:bg-gray-800 py-2 px-3">
               <Link to="" className="flex items-center space-x-3">
                 <i>
                   <HiOutlineLightBulb className="text-2xl" />
@@ -73,13 +82,19 @@ const User = () => {
                 <p className="w-4 h-4 rounded-full bg-white"></p>
               </p>
             </div>
-            <Link to="" className="flex items-center space-x-3">
+            <Link
+              to=""
+              className="flex items-center space-x-3 rounded-lg hover:bg-gray-800 py-2 px-3"
+            >
               <i>
                 <BiHelpCircle className="text-2xl" />
               </i>
               <p>Help</p>
             </Link>
-            <Link to="" className="flex items-center space-x-3">
+            <Link
+              to=""
+              className="flex items-center space-x-3 rounded-lg hover:bg-gray-800 py-2 px-3"
+            >
               <i>
                 <TbLogout2 className="text-2xl" />
               </i>
@@ -87,6 +102,12 @@ const User = () => {
             </Link>
           </section>
         </div>
+      )}
+      {userToggle && (
+        <div
+          onClick={() => setUserToggle(!userToggle)}
+          className="fixed inset-0 h-screen w-screen"
+        ></div>
       )}
     </div>
   );

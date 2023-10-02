@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
-
 import { PiShoppingCartThin } from "react-icons/pi";
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
+
 import User from "./home/User";
 import Sidebar from "./Sidebar";
 
@@ -13,7 +12,7 @@ const Navbar = () => {
   const [searchToggle, setSearchToggle] = useState(true);
 
   return (
-    <section className="border-b border-slate-500 sticky z-50 top-0 inset-x-0 bg-slate-950 text-slate-300">
+    <section className="sticky z-50 top-0 inset-x-0 bg-slate-950 text-slate-300">
       <nav className="flex justify-between items-center w-[90%] 2xl:w-[1440px] mx-auto py-5">
         <div onClick={() => setNavToggle(!navToggle)} className="lg:hidden">
           <RxHamburgerMenu className="text-2xl" />
@@ -34,7 +33,7 @@ const Navbar = () => {
         {searchToggle && (
           <ul className="hidden lg:flex items-center">
             <Link
-              to="/products"
+              to="/categories"
               className="hover:bg-slate-900 py-2 px-5 rounded-full"
             >
               Men
@@ -57,7 +56,11 @@ const Navbar = () => {
             >
               Sport
             </Link>
-            <Link to="/blog" className="hover:bg-slate-900 py-2 px-5 rounded-full">Blog</Link>
+            <Link 
+              to="/blog" 
+              className="hover:bg-slate-900 py-2 px-5 rounded-full">
+              Blog
+            </Link>
             <Link
               to="/products"
               className="hover:bg-slate-900 py-2 px-5 rounded-full"

@@ -1,18 +1,26 @@
-import { AiOutlineHeart } from "react-icons/ai";
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { PiBag } from "react-icons/pi";
 import { HiArrowsPointingOut } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Products = () => {
+  const [like, setLike] = useState(false);
   return (
     <div className=" shrink-0 w-[300px] md:w-[320px] group">
       <div className="relative p-5 bg-gray-900 rounded-3xl mb-5 overflow-hidden">
         <div className="flex justify-end">
           <p className="bg-black p-2 rounded-full">
-            <i>
-              <AiOutlineHeart className="text-2xl" />
-            </i>
+            {like ? (
+              <i onClick={() => setLike(!like)}>
+                <AiFillHeart className="text-2xl text-red-500 cursor-pointer" />
+              </i>
+            ) : (
+              <i onClick={() => setLike(!like)}>
+                <AiOutlineHeart className="text-2xl cursor-pointer" />
+              </i>
+            )}
           </p>
         </div>
 
@@ -21,15 +29,15 @@ const Products = () => {
             <img src="/assets/assets/IMG_1966.PNG" alt="" />
           </div>
         </Link>
-        <section className="translate-y-[200%] group-hover:translate-y-0 transition-all duration-300 absolute bottom-5 left-3.5 z-10 flex justify-center items-center space-x-2 text-sm ">
-          <div className="flex items-center bg-white px-5 py-2 rounded-full shadow-lg text-black  whitespace-nowrap">
+        <section className="translate-y-[200%] group-hover:translate-y-0 transition-all duration-300 absolute bottom-5 left-3.5 lg:left-6 z-10 flex justify-center items-center space-x-2 text-sm ">
+          <div className="flex items-center bg-white px-5 py-2 rounded-full shadow-lg text-black  whitespace-nowrap cursor-pointer">
             <i className="mr-2">
               <PiBag />
             </i>
             <p>Add to bag</p>
           </div>
 
-          <div className="flex items-center bg-black  px-5 py-2 rounded-full shadow-lg whitespace-nowrap">
+          <div className="flex items-center bg-black  px-5 py-2 rounded-full shadow-lg whitespace-nowrap cursor-pointer">
             <i className="mr-2">
               <HiArrowsPointingOut />
             </i>
