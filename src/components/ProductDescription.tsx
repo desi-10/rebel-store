@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProductDescription = () => {
   return (
     <section className="mt-5 space-y-5">
