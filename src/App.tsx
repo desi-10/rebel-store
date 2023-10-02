@@ -3,6 +3,8 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Cart from "./pages/Cart";
+import BlogPage from "./pages/BlogPage";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/blog" element={<BlogPage />} />
         </Route>
       </Routes>
     </section>
