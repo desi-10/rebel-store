@@ -15,7 +15,7 @@ const Categories = () => {
       </header>
 
       <div className="flex justify-between items-center mb-10">
-        <ul className="flex text-xl space-x-5">
+        <ul className="flex text-lg space-x-5">
           <li className="border rounded-full py-1 px-5 border-gray-800">
             100-500
           </li>
