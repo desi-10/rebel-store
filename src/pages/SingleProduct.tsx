@@ -6,7 +6,7 @@ import { WiStars } from "react-icons/wi";
 import { TfiWorld } from "react-icons/tfi";
 import { RiRefund2Line } from "react-icons/ri";
 import { PiBag } from "react-icons/pi";
-import ProductDescription from "../components/productDescription";
+import ProductDescription from "../components/ProductDescription";
 
 const Products = () => {
   return (
