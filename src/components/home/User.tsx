@@ -19,7 +19,7 @@ const User = () => {
         <AiOutlineUser className="text-2xl " />
       </div>
       {userToggle && (
-        <div className="absolute top-10 right-0 px-3 rounded-xl bg-slate-900 w-[250px] ">
+        <div className="absolute z-10 top-10 right-0 px-3 rounded-xl bg-slate-900 w-[250px]">
           <div className=" flex items-center space-x-3 border-b py-5">
             <p className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center">
               <img
@@ -102,6 +102,12 @@ const User = () => {
             </Link>
           </section>
         </div>
+      )}
+      {userToggle && (
+        <div
+          onClick={() => setUserToggle(!userToggle)}
+          className="fixed inset-0 h-screen w-screen"
+        ></div>
       )}
     </div>
   );
