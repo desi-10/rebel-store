@@ -17,21 +17,21 @@ const Categories = () => {
 
       <div className="flex justify-between items-center mb-10">
         <ul className="flex text-xl space-x-5">
-          <li className="border rounded-full py-2 px-5 border-gray-800">
+          <li className="border rounded-full py-1 px-5 border-gray-800">
             100-500
           </li>
-          <li className="border rounded-full py-2 px-5 border-gray-800">
+          <li className="border rounded-full py-1 px-5 border-gray-800">
             Categories
           </li>
-          <li className="border rounded-full py-2 px-5 border-gray-800">
+          <li className="border rounded-full py-1 px-5 border-gray-800">
             Colors
           </li>
-          <li className="border rounded-full py-2 px-5 border-gray-800">
+          <li className="border rounded-full py-1 px-5 border-gray-800">
             Size
           </li>
         </ul>
 
-        <p className="border rounded-full py-2 px-5 border-gray-800">
+        <p className="border rounded-full py-1 px-5 border-gray-800">
           Sort order
         </p>
       </div>
