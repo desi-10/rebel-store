@@ -51,7 +51,7 @@ const Products = () => {
                   <FaStar className="text-amber-500" />
                 </i>
                 <p className="text-slate-100 lg:mr-3">
-                  4.9 *{" "}
+                  4.9
                   <span className="underline text-slate-500">145 reviews</span>
                 </p>
                 <p className="hidden md:flex text-slate-100 items-center">
