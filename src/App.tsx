@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Products from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
 import Categories from "./pages/Categories";
+import BlogPage from "./pages/BlogPage";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/blog" element={<BlogPage />} />
         </Route>
       </Routes>
     </section>
