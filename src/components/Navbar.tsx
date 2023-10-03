@@ -56,6 +56,12 @@ const Navbar = () => {
             >
               Sport
             </Link>
+            <Link
+              to="/blog"
+              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+            >
+              Blog
+            </Link>
           </ul>
         )}
 
