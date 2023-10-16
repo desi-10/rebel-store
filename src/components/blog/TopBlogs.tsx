@@ -2,8 +2,8 @@ import BlogCard from "./BlogCard"
 
 const TopBlogs = () => {
   return (
-    <section className="grid md:grid-cols-2">
-        <div className="space-y-4 p-8">
+    <section className="grid lg:grid-cols-2">
+        <div className="space-y-4 p-4 md:p-8">
             <div className="h-[30rem] rounded-3xl overflow-hidden">
               <img src="https://images.pexels.com/photos/6168061/pexels-photo-6168061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" />
             </div>
@@ -19,7 +19,7 @@ const TopBlogs = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="p-4 md:p-8">
           <BlogCard />
           <BlogCard />
           <BlogCard />

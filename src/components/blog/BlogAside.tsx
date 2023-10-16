@@ -37,7 +37,7 @@ export const TrendingTopic = () => {
 
 const PopularPostsCard = () => {
     return (
-        <li className="flex gap-2">
+        <div className="flex flex-col-reverse md:flex-row justify-between gap-2">
             <div className="text-sm space-y-2">
                 <div className="flex items-center gap-2">
                     <div className="w-8 h-8 rounded-full overflow-hidden">
@@ -50,17 +50,17 @@ const PopularPostsCard = () => {
                     Tellus Integer Feugiat Scelerisque Varius Morbi Enim
                 </h5>
             </div>
-            <div className="shrink-0 w-24 h-24 rounded-lg overflow-hidden">
+            <div className="w-full shrink-0 md:w-24 h-24 rounded-lg overflow-hidden">
                 <img src="/assets/assets/blog/2.jpeg" alt="" />
             </div>
-        </li>
+        </div>
     )
 }
 
 export const PopularPosts = () => {
     return (
         <section className="bg-slate-700 rounded-2xl my-8">
-            <div className="flex justify-between p-4">
+            <div className="flex  justify-between p-4">
                 <h4 className={h4Style}>🎯 Popular Posts</h4>
                 <a className={aStyle}>View all</a>
             </div>
