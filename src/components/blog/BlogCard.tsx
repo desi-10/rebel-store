@@ -1,6 +1,6 @@
 const BlogCard = () => {
   return (
-    <div className="flex py-8 gap-2">
+    <div className="flex flex-col-reverse md:flex-row py-8 gap-4">
         <ul className="space-y-4">
             <li className="dark:text-slate-100 font-bold">Fringilla Ut Morbi Tincidunt Augue Interdum Velit Euismod In Pellentesque</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero perspiciatis ullam ea? Nihil accusamus similique debitis</li>
@@ -12,7 +12,7 @@ const BlogCard = () => {
                 <span>May 20, 2021</span>
             </li>
           </ul>
-          <div className="w-44 h-44 shrink-0 rounded-3xl overflow-hidden">
+          <div className="w-full sm:w-44 h-44 shrink-0 rounded-3xl overflow-hidden">
               <img src="/assets/assets/blog/1.webp" alt="" />
             </div>
     </div>

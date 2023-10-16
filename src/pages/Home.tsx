@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import TopBlogs from "../components/blog/TopBlogs";
 import Discover from "../components/home/Discover";
 import Earn from "../components/home/Earn";
 import Exploring from "../components/home/Exploring";
@@ -17,6 +18,7 @@ const Home = () => {
       <Earn />
       <Exploring />
       <Trending />
+      <TopBlogs />
       <Review />
     </section>
   );
