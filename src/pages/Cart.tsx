@@ -8,7 +8,7 @@ const Cart = () => {
   return (
     <section className="w-[90%] mx-auto py-5">
       <div className=" border-b border-slate-500 mb-5">
-        <h2 className="text-3xl font-bold text-slate-100">Shopping Cart</h2>
+        <h2 className="text-3xl font-bold dark:text-slate-100">Shopping Cart</h2>
         <p className="text-sm my-5 ">
           Homepage / Clothing Categories /{" "}
           <span className="underline">Shopping Cart</span>
@@ -25,15 +25,15 @@ const Cart = () => {
             <div className="space-y-3 w-full md:flex flex-col justify-between">
               <div className="">
                 <section className="md:flex items-center justify-between">
-                  <p className="truncate text-slate-100 font-bold text-lg">
+                  <p className="truncate dark:text-slate-100 font-bold text-lg">
                     Leather Gloves
                   </p>
 
-                  <div className="flex md:hidden items-center space-x-3 mb-3">
-                    <div className="flex items-center space-x-1  text-slate-100 border-r pr-5 border-slate-700">
+                  <div className="flex md:hidden items-center space-x-3 mb-3 text-black">
+                    <div className="flex items-center space-x-1  dark:text-slate-100 border-r pr-5 border-slate-700">
                       <CgColorBucket /> <span>Black</span>
                     </div>
-                    <div className="flex items-center space-x-1  text-slate-100 pl-3">
+                    <div className="flex items-center space-x-1  dark:text-slate-100 pl-3">
                       <BsArrowsAngleExpand /> <span>2xl</span>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ const Cart = () => {
                     <i className="p-1 rounded-full border border-slate-800">
                       <BiMinus className="text-2xl" />
                     </i>
-                    <p className="text-xl text-slate-100">1</p>
+                    <p className="text-xl dark:text-slate-100">1</p>
                     <i className="p-1 rounded-full border border-slate-800">
                       <BsPlus className="text-2xl" />
                     </i>
@@ -64,10 +64,10 @@ const Cart = () => {
                 </section>
 
                 <div className="hidden md:flex items-center space-x-3">
-                  <div className="flex items-center space-x-1  text-slate-100 border-r pr-5 border-slate-700">
+                  <div className="flex items-center space-x-1  dark:text-slate-100 border-r pr-5 border-slate-700">
                     <CgColorBucket /> <span>Black</span>
                   </div>
-                  <div className="flex items-center space-x-1  text-slate-100 pl-3">
+                  <div className="flex items-center space-x-1  dark:text-slate-100 pl-3">
                     <BsArrowsAngleExpand /> <span>2xl</span>
                   </div>
                 </div>
@@ -87,26 +87,26 @@ const Cart = () => {
         </section>
 
         <div className="py-10 sticky top-0">
-          <h2 className="text-xl text-slate-100 font-bold mb-5">
+          <h2 className="text-xl dark:text-slate-100 font-bold mb-5">
             Order Summary
           </h2>
 
           <section className="mb-5">
             <div className="flex justify-between items-center border-b py-5 border-slate-800">
               <p>Subtotal</p>
-              <p className="text-slate-100 font-bold">$249.000</p>
+              <p className="dark:text-slate-100 font-bold">$249.000</p>
             </div>
             <div className="flex justify-between items-center border-b py-5 border-slate-800">
               <p>Shipping estimate</p>
-              <p className="text-slate-100 font-bold">$249.000</p>
+              <p className="dark:text-slate-100 font-bold">$249.000</p>
             </div>
             <div className="flex justify-between items-center border-b py-5 border-slate-800">
               <p>Tax extimate</p>
-              <p className="text-slate-100 font-bold">$249.000</p>
+              <p className="dark:text-slate-100 font-bold">$249.000</p>
             </div>
             <div className="flex justify-between items-center py-5">
-              <p className="text-lg text-slate-100 font-bold">order total</p>
-              <p className="text-slate-100 font-bold">$249.000</p>
+              <p className="text-lg dark:text-slate-100 font-bold">order total</p>
+              <p className="dark:text-slate-100 font-bold">$249.000</p>
             </div>
           </section>
 
@@ -119,8 +119,8 @@ const Cart = () => {
               <IoMdInformationCircleOutline />
             </span>
             <p>
-              Learn more <span className="text-slate-100 underline">Taxes</span>{" "}
-              and <span className="text-slate-100 underline">Shipping</span>{" "}
+              Learn more <span className="dark:text-slate-100 underline">Taxes</span>{" "}
+              and <span className="dark:text-slate-100 underline">Shipping</span>{" "}
               information
             </p>
           </div>

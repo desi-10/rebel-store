@@ -2,7 +2,7 @@ const ProductDescription = () => {
   return (
     <section className="mt-5 space-y-5">
       <div>
-        <h3 className="p-3 bg-gray-800 rounded-lg">Description</h3>
+        <h3 className="p-3 dark:bg-gray-800 bg-slate-100 rounded-lg">Description</h3>
         <p className=" p-3">
           Fashion is a form of self-expression and autonomy at a particular
           period and place and in a specific context, of clothing, footwear,
@@ -10,7 +10,7 @@ const ProductDescription = () => {
         </p>
       </div>
       <div>
-        <h3 className="p-3 bg-gray-800 rounded-lg">Fabric + Care</h3>
+        <h3 className="p-3 dark:bg-gray-800 bg-slate-100 rounded-lg">Fabric + Care</h3>
         <ul className="p-3">
           <li>Made from a sheer Belgian power micromesh.</li>
           <li>74% Polyamide (Nylon) 26% Elastane (Spandex)</li>
@@ -19,7 +19,7 @@ const ProductDescription = () => {
         </ul>
       </div>
       <div>
-        <h3 className="p-3 bg-gray-800 rounded-lg">How it works</h3>
+        <h3 className="p-3 dark:bg-gray-800 bg-slate-100 rounded-lg">How it works</h3>
         <p className="hidden p-3">
           Use this as a guide. Preference is a huge factor — if you're near the
           top of a size range and/or prefer more coverage, you may want to size
@@ -27,7 +27,7 @@ const ProductDescription = () => {
         </p>
       </div>
       <div>
-        <h3 className="p-3 bg-gray-800 rounded-lg">FAQ</h3>
+        <h3 className="p-3 dark:bg-gray-800 bg-slate-100 rounded-lg">FAQ</h3>
         <ul className="hidden p-3">
           <li>
             All full-priced, unworn items, with tags attached and in their
