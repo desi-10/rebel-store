@@ -5,7 +5,7 @@ import Products from "../Products";
 const Trending = () => {
   return (
     <section className="w-[90%] mx-auto py-10">
-      <h3 className="font-bold text-3xl text-slate-100 mb-3">
+      <h3 className="font-bold text-3xl dark:text-slate-100 mb-3">
         Whats trending now
       </h3>
       <p className="mb-5">Discover the most trending products in Rebel</p>
@@ -29,7 +29,7 @@ const Trending = () => {
           </p>
         </div>
 
-        <div className="px-10 flex space-x-3  justify-center items-center p-2 bg-slate-100 text-slate-900 rounded-full mb-5 text-sm">
+        <div className="px-10 flex space-x-3  justify-center items-center p-2 bg-slate-100 dark:bg-slate-800 dark:text-slate-100 text-slate-900 rounded-full mb-5 text-sm">
           <i>
             <LuFilter className="text-2xl" />
           </i>

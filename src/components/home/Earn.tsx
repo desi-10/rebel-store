@@ -13,7 +13,7 @@ const Earn = () => {
             />
           </div>
 
-          <h3 className="text-3xl font-bold text-white mb-5">
+          <h3 className="text-3xl font-bold dark:text-white mb-5">
             Earn free money with Rebel
           </h3>
 
@@ -22,12 +22,10 @@ const Earn = () => {
           </p>
 
           <div className="space-x-3">
-            <Link to="" className="p-3 rounded-full bg-slate-50 text-slate-900">
-              {" "}
+            <Link to="" className="py-3 px-6 rounded-full bg-slate-100 text-slate-900">
               Savings combo
             </Link>
-            <Link to="/" className="p-3 rounded-full bg-slate-900">
-              {" "}
+            <Link to="/" className="py-3 px-6 rounded-full dark:bg-slate-900 bg-slate-100">
               Discover more
             </Link>
           </div>

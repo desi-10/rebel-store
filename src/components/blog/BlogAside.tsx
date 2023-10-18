@@ -17,13 +17,13 @@ const TrendingTopicCard = () => {
 
 export const TrendingTopic = () => {
     return (
-        <section className="bg-slate-700 rounded-2xl my-8">
+        <section className="dark:bg-slate-700 bg-slate-100 rounded-2xl my-8">
             <div className="flex justify-between p-4">
                 <h4 className={h4Style}>✨ Trending topic</h4>
                 <a className={aStyle}>View all</a>
             </div>
             
-            <ul className="[&>*]:border-t-[1px] [&>*]:border-t-slate-600 [&>*]:p-4">
+            <ul className="[&>*]:border-t-[1px] [&>*]:dark:border-t-slate-600 [&>*]:border-t-slate-300 [&>*]:p-4">
                 <li><TrendingTopicCard /></li>
                 <li><TrendingTopicCard /></li>
                 <li><TrendingTopicCard /></li>
@@ -59,12 +59,12 @@ const PopularPostsCard = () => {
 
 export const PopularPosts = () => {
     return (
-        <section className="bg-slate-700 rounded-2xl my-8">
+        <section className="dark:bg-slate-700 bg-slate-100 rounded-2xl my-8">
             <div className="flex  justify-between p-4">
                 <h4 className={h4Style}>🎯 Popular Posts</h4>
                 <a className={aStyle}>View all</a>
             </div>
-            <ul className="[&>*]:border-t-[1px] [&>*]:border-t-slate-600 [&>*]:p-4">
+            <ul className="[&>*]:border-t-[1px] [&>*]:dark:border-t-slate-600 [&>*]:border-t-slate-300 [&>*]:p-4">
                 <li><PopularPostsCard /></li>
                 <li><PopularPostsCard /></li>
                 <li><PopularPostsCard /></li>

@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 const Review = () => {
   return (
     <section className="py-10 w-[90%] lg:w-[500px] mx-auto">
-      <h2 className="text-center font-bold text-3xl text-slate-100 mb-2">
+      <h2 className="text-center font-bold text-3xl dark:text-slate-100 mb-2">
         Good news from far away
       </h2>
       <p className="text-center mb-10">Lets see what people think of Rebel</p>
@@ -17,12 +17,12 @@ const Review = () => {
         />
       </div>
 
-      <div className="text-center text-2xl mb-5 text-slate-100">
+      <div className="text-center text-2xl mb-5 dark:text-slate-100">
         Great quality products, affordable prices, fast and friendly delievry. I
         very recommend
       </div>
 
-      <p className="text-xl text-center mb-3 font-bold text-slate-100">
+      <p className="text-xl text-center mb-3 font-bold dark:text-slate-100">
         Tiana Abie
       </p>
       <div className="flex space-x-2 justify-center items-center">

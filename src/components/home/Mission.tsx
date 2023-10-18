@@ -37,7 +37,7 @@ const Mission = () => {
               <button className="py-2 px-5 mb-5 bg-blue-200 rounded-full text-blue-500">
                 {item.step}
               </button>
-              <p className="font-bold text-slate-100 mb-5">{item.title}</p>
+              <p className="font-bold dark:text-slate-100 mb-5">{item.title}</p>
               <p>{item.desc}</p>
             </section>
           );

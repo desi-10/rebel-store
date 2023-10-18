@@ -7,7 +7,7 @@ const NewArrivals = () => {
     <section className="py-10">
       <div className="w-[90%] 2xl:w-[1440px] mx-auto py-10">
         <div className="flex justify-between items-center">
-          <h3 className="text-4xl font-bold text-slate-100">
+          <h3 className="text-4xl font-bold dark:text-slate-100">
             New Arrivals. {""}
             <span className="text-slate-500">REY backpacks & bags</span>
           </h3>
