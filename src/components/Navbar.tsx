@@ -12,7 +12,7 @@ const Navbar = () => {
   const [searchToggle, setSearchToggle] = useState(true);
 
   return (
-    <section className="sticky z-50 top-0 inset-x-0 bg-slate-950 text-slate-300">
+    <section className="sticky z-50 top-0 inset-x-0 bg-white dark:bg-slate-950 dark:text-slate-300">
       <nav className="flex justify-between items-center w-[90%] 2xl:w-[1440px] mx-auto py-5">
         <div onClick={() => setNavToggle(!navToggle)} className="lg:hidden">
           <RxHamburgerMenu className="text-2xl" />
@@ -34,31 +34,31 @@ const Navbar = () => {
           <ul className="hidden lg:flex items-center">
             <Link
               to="/categories"
-              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+              className="hover:dark:bg-slate-900 hover:bg-slate-100 py-2 px-5 rounded-full"
             >
               Men
             </Link>
             <Link
               to="/products"
-              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+              className="hover:dark:bg-slate-900 hover:bg-slate-100 py-2 px-5 rounded-full"
             >
               Women
             </Link>
             <Link
               to="/products"
-              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+              className="hover:dark:bg-slate-900 hover:bg-slate-100 py-2 px-5 rounded-full"
             >
               Beauty
             </Link>
             <Link
               to="/products"
-              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+              className="hover:dark:bg-slate-900 hover:bg-slate-100 py-2 px-5 rounded-full"
             >
               Sport
             </Link>
             <Link
               to="/blog"
-              className="hover:bg-slate-900 py-2 px-5 rounded-full"
+              className="hover:dark:bg-slate-900 hover:bg-slate-100 py-2 px-5 rounded-full"
             >
               Blog
             </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
           <ul className="flex items-center">
             <li
               onClick={() => setSearchToggle(!searchToggle)}
-              className="hidden lg:block hover:bg-slate-900 p-2 rounded-full"
+              className="hidden lg:block hover:dark:bg-slate-900 hover:bg-slate-100 p-2 rounded-full"
             >
               <CiSearch className="text-2xl cursor-pointer" />
             </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
             </li>
             <Link
               to="/cart"
-              className="relative hover:bg-slate-900 p-2 rounded-full"
+              className="relative hover:dark:bg-slate-900 hover:bg-slate-100 p-2 rounded-full"
             >
               <PiShoppingCartThin className="text-2xl" />
               <div className="absolute top-0 right-0 p-1 h-4 text-xs text-center rounded-full bg-blue-500 text-white flex justify-center items-center">

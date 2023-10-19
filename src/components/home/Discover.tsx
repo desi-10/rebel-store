@@ -5,7 +5,7 @@ const Discover = () => {
     <section className="py-10">
       <div className="w-[90%] 2xl:w-[1440px] mx-auto ">
         <div className="flex justify-between items-center mb-10">
-          <h3 className="text-4xl font-bold text-slate-200">
+          <h3 className="text-4xl font-bold dark:text-slate-200">
             Discover more.{" "}
             <span className="text-slate-500">
               Good things are waiting for you
@@ -32,7 +32,7 @@ const Discover = () => {
               </div>
 
               <p className="">
-                <Link to="" className="px-5 py-2 bg-black rounded-full">
+                <Link to="" className="px-5 py-2 dark:bg-black bg-white shadow-lg rounded-full">
                   Show me all
                 </Link>
               </p>

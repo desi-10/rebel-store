@@ -9,7 +9,7 @@ import BlogPage from "./pages/BlogPage";
 
 function App() {
   return (
-    <section className="text-slate-400 bg-slate-950">
+    <section className="dark:text-slate-400 dark:bg-slate-950">
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
