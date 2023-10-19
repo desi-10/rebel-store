@@ -4,7 +4,7 @@ const Categories = () => {
   return (
     <section className="w-[90%] mx-auto">
       <header className="py-5 border-b border-gray-800 mb-5">
-        <h2 className="text-3xl font-bold text-slate-100 mb-5">
+        <h2 className="text-3xl font-bold dark:text-slate-100 mb-5">
           Men Collection
         </h2>
         <p>
