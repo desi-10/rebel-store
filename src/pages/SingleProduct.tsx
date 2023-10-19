@@ -38,7 +38,7 @@ const Products = () => {
 
         <section className="space-y-5">
           <div className="border-b pb-10 border-slate-800">
-            <h2 className="text-slate-100 font-bold text-2xl mb-5">
+            <h2 className="dark:text-slate-100 font-bold text-2xl mb-5">
               Heavy Weight Hoodie
             </h2>
 
@@ -50,11 +50,11 @@ const Products = () => {
                 <i className="mr-2 lg:mr-3">
                   <FaStar className="text-amber-500" />
                 </i>
-                <p className="text-slate-100 lg:mr-3">
+                <p className="dark:text-slate-100 lg:mr-3">
                   4.9
-                  <span className="underline text-slate-500">145 reviews</span>
+                  <span className="underline dark:text-slate-500">145 reviews</span>
                 </p>
-                <p className="hidden md:flex text-slate-100 items-center">
+                <p className="hidden md:flex dark:text-slate-100 items-center">
                   <i>
                     <WiStars className="text-2xl" />
                   </i>
@@ -64,7 +64,7 @@ const Products = () => {
             </div>
 
             <section className="mb-5">
-              <p className="text-slate-100 mb-3">Color:Black</p>
+              <p className="dark:text-slate-100 mb-3">Color:Black</p>
               <div className="mb-3 space-x-3 flex">
                 <p className="w-10 h-5 rounded-full bg-red-500"></p>
                 <p className="w-10 h-5 rounded-full bg-blue-500"></p>
@@ -86,12 +86,12 @@ const Products = () => {
             </section>
 
             <section className="flex items-center justify-between space-x-3 lg:space-x-5">
-              <div className="flex items-center space-x-5 bg-gray-800 rounded-full p-2">
-                <i className="p-1 rounded-full border border-slate-700 bg-slate-900">
+              <div className="flex items-center space-x-5 dark:bg-gray-800 rounded-full p-2">
+                <i className="p-1 rounded-full border dark:border-slate-700 dark:bg-slate-900">
                   <BiMinus className="text-2xl" />
                 </i>
-                <p className="text-xl text-slate-100">1</p>
-                <i className="p-1 rounded-full border border-slate-500 bg-slate-900">
+                <p className="text-xl dark:text-slate-100">1</p>
+                <i className="p-1 rounded-full border dark:border-slate-500 dark:bg-slate-900">
                   <BsPlus className="text-2xl" />
                 </i>
               </div>
@@ -140,10 +140,10 @@ const Products = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold text-slate-100 mb-5">
+        <h2 className="text-2xl font-bold dark:text-slate-100 mb-5">
           Product Details
         </h2>
-        <p className="text-slate-100">
+        <p className="dark:text-slate-100">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam
           eveniet in. Dolores totam temporibus hic nostrum maxime veritatis.
           Quasi eaque, illo quo veritatis accusamus eveniet ullam laudantium
